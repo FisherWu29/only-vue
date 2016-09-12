@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>vue</title>
+</head>
+<body>
+	<div id="app">app</div>
+	<script type="text/javascript" src="lib/vue.js"></script>
+	<script type="text/javascript">
+		new Vue({
+			el:"#app",
+			template:"<div>{{msg}}</div>",
+			data:function (argument) {
+				return {
+					msg:"hello vue!"
+				};
+			}
+		})
+	</script>
+</body>
+</html>
